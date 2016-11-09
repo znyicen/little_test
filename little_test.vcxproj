@@ -24,10 +24,15 @@
   <ItemGroup>
     <None Include="lamp.frag" />
     <None Include="lamp.vert" />
+    <None Include="surface.frag" />
+    <None Include="surface.vert" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="basic_lighting.vert" />
     <Text Include="basic_lighting.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CK_head.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{95c66836-2781-4716-a41e-ce7e03060545}</ProjectGuid>

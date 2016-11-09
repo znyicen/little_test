@@ -13,26 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{f240c99c-9516-42bc-891a-7bb93fae2ae4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="lamp.vert">
-      <Filter>源文件</Filter>
+    <None Include="surface.vert">
+      <Filter>shader</Filter>
     </None>
     <None Include="lamp.frag">
-      <Filter>源文件</Filter>
+      <Filter>shader</Filter>
+    </None>
+    <None Include="lamp.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="surface.frag">
+      <Filter>shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="basic_lighting.vert">
-      <Filter>源文件</Filter>
+      <Filter>shader</Filter>
     </Text>
     <Text Include="basic_lighting.frag">
-      <Filter>源文件</Filter>
+      <Filter>shader</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="basic_lighting_specular.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CK_head.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
