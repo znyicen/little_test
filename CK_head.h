@@ -50,7 +50,7 @@ void do_movement();
 
 //// III 全局变量 ////
 // 窗口尺寸
-const GLuint WIDTH = 800, HEIGHT = 600;
+const GLuint WIDTH =800, HEIGHT = 600;
 
 // 摄影机变量
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -100,6 +100,10 @@ void openGL_setup() {
 	// OpenGL options
 	// 开启深度测试
 	glEnable(GL_DEPTH_TEST);
+
+	// 设置绘制模式
+	// glPolygonMode(GL_FRONT_AND_BACK, GL_LINE); // 线框模式
+	// glPolygonMode(GL_FRONT_AND_BACK, GL_FILL); // 默认填充模式
 }
 
 // 输入回调函数实现
